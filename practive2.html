@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manu Sharma | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS Animation CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style1.css">
+
+
+</head>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-black bg-opacity-70 backdrop-blur-lg z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <!-- <img src="photos/logo.png" alt="Logo" class="h-10 w-10 mr-2 rounded" /> -->
+       <span class="text-xl font-bold">
+  <span class="text-pink-500">M</span>ANU
+</span>
+
+      </div>
+      <nav class="hidden md:flex space-x-6 font-medium">
+        <a href="#about" class="hover:text-pink-500">About</a>
+        <!-- <a href="#skills" class="hover:text-pink-500">Skills</a> -->
+        <a href="#projects" class="hover:text-pink-500">Projects</a>
+        <a href="#education" class="hover:text-pink-500">Education</a>
+        <a href="#experience" class="hover:text-pink-500">Experience</a>
+        <a href="#certifications" class="hover:text-pink-500">Certifications</a>
+        <a href="#contact" class="hover:text-pink-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="h-screen bg-fixed bg-cover bg-center flex items-center justify-center relative" style="background-image: url('photos/bg.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+    <div class="text-center px-4 z-10">
+      <p class="text-xl">Aspiring Software Developer</p>
+      <h1 class="text-5xl md:text-6xl font-bold mt-2">Hi, I'm <span class="text-pink-500">Manu</span> Sharma</h1>
+      <a href="photos/resume.pdf" download class="mt-6 inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-lg transition">📄 Download Resume</a>
+    </div>
+  </section>
+
+ <!-- About -->
+<section id="about" class="py-20 bg-[#111] text-white">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-12 items-start fade-in">
+
+    <!-- About Me -->
+    <div class="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+      <!-- Profile Photo -->
+      <div class="w-40 h-40 border-2 border-pink-500 rounded-full overflow-hidden mb-6 profile-pic">
+        <img src="photos/manu.jpg" alt="Manu Sharma" class="w-full h-full object-cover" />
+      </div>
+   <p class="text-base leading-relaxed">
+  Hi, I’m <span class="gradient-text font-semibold">Manu Sharma</span>, an aspiring <span class="text-pink-500 font-semibold">Software Developer</span> 
+  with a strong passion for building impactful and user-friendly applications. I am currently sharpening my skills in 
+  <span class="text-pink-500">JavaScript, React, Node.js</span>, and databases like <span class="text-pink-500">MongoDB</span> and <span class="text-pink-500">SQL</span> 
+  to become a versatile full-stack professional.  
+  <br><br>
+  I believe in life-long learning and thrive on challenges that help me grow, both technically and creatively. 
+  My journey is fueled by curiosity, problem-solving, and the desire to create meaningful digital experiences.  
+  <br>
+</p>
+
+
+    </div>
+
+    <!-- Skills Grid -->
+    <div class="md:w-1/2 grid grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-12 h-12 mb-2" alt="HTML" />
+        <span>HTML</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-12 h-12 mb-2" alt="CSS" />
+        <span>CSS</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-12 h-12 mb-2" alt="JavaScript" />
+        <span>JavaScript</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-12 h-12 mb-2" alt="React" />
+        <span>React</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="w-12 h-12 mb-2" alt="Node.js" />
+        <span>Node.js</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="w-12 h-12 mb-2" alt="MongoDB" />
+        <span>MongoDB</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-12 h-12 mb-2" alt="Git" />
+        <span>Git</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="w-12 h-12 mb-2" alt="C++" />
+        <span>C++</span>
+      </div>
+
+      <div class="p-4 border-2 border-pink-500 rounded-lg flex flex-col items-center justify-center skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-12 h-12 mb-2" alt="SQL" />
+        <span>SQL</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Competitive Programming Section -->
+<section id="competitive" class="py-10 bg-gray-900 text-white">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-8">Competitive Programming</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+      
+      <!-- LeetCode -->
+      <a href="https://leetcode.com/u/manu-sharma/" target="_blank" class="p-6 bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-transform">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="mx-auto h-16 mb-4">
+        <h3 class="text-xl font-semibold">LeetCode</h3>
+        <p class="mt-2 text-gray-400">100+ Problems Solved</p>
+      </a>
+      
+      <!-- HackerRank -->
+      <a href="https://www.hackerrank.com/profile/manusharma8164" target="_blank" class="p-6 bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-transform">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="HackerRank" class="mx-auto h-16 mb-4">
+        <h3 class="text-xl font-semibold">HackerRank</h3>
+        <p class="mt-2 text-gray-400">5★ Problem Solving</p>
+      </a>
+      
+      <!-- GeeksforGeeks -->
+      <a href="https://www.geeksforgeeks.org/user/manusharrobi/" target="_blank" class="p-6 bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-transform">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GeeksforGeeks" class="mx-auto h-16 mb-4">
+        <h3 class="text-xl font-semibold">GeeksforGeeks</h3>
+        <p class="mt-2 text-gray-400">100+ Problems Solved</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-[#111] text-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-pink-500 mb-12 text-center" data-aos="fade-up">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Project 1 -->
+      <div class="bg-[#1c1c1c] p-4 rounded-xl shadow-md tilt-card" data-aos="fade-up" data-aos-delay="50">
+        <img src="photos/social.png" alt="Infinite Scroll Social Feed" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h3 class="text-2xl font-semibold mb-2">Infinite Scroll Social Feed</h3>
+        <p class="text-gray-300 mb-2">Real-time web app with infinite scrolling, toast notifications, and live posts using Socket.io, Node.js, Tailwind CSS.</p>
+        <a href="https://github.com/manumharma/-Infinite-Scroll-Social-Feed-with-Real-Time-Updates.git" class="text-pink-500 hover:underline">View Code</a>
+      </div>
+
+          <!-- Project 2 -->
+    <div class="bg-[#1c1c1c] p-4 rounded-xl shadow-md tilt-card" data-aos="fade-up" data-aos-delay="100">
+      <img src="photos/bank.png" alt="Bank Management System" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold mb-2">Bank Management System (C++)</h3>
+      <p class="text-gray-300 mb-2">
+        Interactive banking system using C++ with console-based forms. Features include account creation, transactions, balance checks, and reports.
+      </p>
+      <a href="https://github.com/ManuSharma82/Banking_Management-_Systems-" class="text-pink-500 hover:underline">View Code</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="bg-[#1c1c1c] p-4 rounded-xl shadow-md tilt-card" data-aos="fade-up" data-aos-delay="150">
+      <img src="photos/tic.png" alt="Tic Tac Toe Game" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold mb-2">Tic Tac Toe (C++)</h3>
+      <p class="text-gray-300 mb-2">
+        Interactive Tic Tac Toe game in C++ with user input forms. Focus on clean OOP design and game logic.
+      </p>
+      <a href="https://github.com/manumharma/Tic-Toc-Toe" class="text-pink-500 hover:underline">View Code</a>
+    </div>
+
+
+      <!-- Project 4 -->
+      <div class="bg-[#1c1c1c] p-4 rounded-xl shadow-md tilt-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="photos/amazon.png" alt="Amazon Clone" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h3 class="text-2xl font-semibold mb-2">Amazon Clone</h3>
+        <p class="text-gray-300 mb-2">Frontend clone of Amazon using HTML, CSS, and JS, simulating product browsing and cart system.</p>
+        <a href="https://github.com/manumharma/hotstar-clone-" class="text-pink-500 hover:underline">View Code</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Education -->
+<section id="education" class="py-20 bg-black text-white">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-pink-500 mb-12 text-center" data-aos="fade-up">Education</h2>
+    
+    <div class="space-y-6">
+      
+      <!-- B.Tech -->
+      <div class="bg-[#1c1c1c] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="50">
+        <h3 class="text-2xl font-semibold mb-2 text-pink-500">B.Tech in Computer Science & Engineering</h3>
+        <p class="text-gray-400 mb-1"><strong>Institution:</strong> Greater Noida Institute of Technology</p>
+        <p class="text-gray-400 mb-1"><strong>Duration:</strong> 2022 – 2026</p>
+        <p class="text-gray-300 mb-1"><strong>CGPA:</strong> 7.5/10</p>
+        <p class="text-gray-300"><strong>Relevant Courses:</strong> Data Structures, Algorithms, Database Management, Cloud Computing</p>
+      </div>
+
+      <!-- Higher Secondary -->
+      <div class="bg-[#1c1c1c] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-2xl font-semibold mb-2 text-pink-500">Higher Secondary (12th)</h3>
+        <p class="text-gray-400 mb-1"><strong>Institution:</strong> IGIC School</p>
+        <p class="text-gray-400 mb-1"><strong>Year:</strong> 2022</p>
+        <!-- Optional: Add percentage/grade if desired -->
+      </div>
+
+      <!-- High School -->
+      <div class="bg-[#1c1c1c] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="150">
+        <h3 class="text-2xl font-semibold mb-2 text-pink-500">High School (10th)</h3>
+        <p class="text-gray-400 mb-1"><strong>Institution:</strong> IGIC School</p>
+        <p class="text-gray-400 mb-1"><strong>Year:</strong> 2020</p>
+        <p class="text-gray-300"><strong>Percentage:</strong> 80%</p>
+      </div>
+
+    </div>
+    
+  </div>
+</section>
+<!-- Experience Section -->
+<section id="experience" class="py-12 bg-gray-900 text-white">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">Experience</h2>
+    
+    <div class="bg-gray-800 rounded-2xl shadow-lg p-6 flex flex-col md:flex-row gap-6 hover:shadow-2xl transition-shadow duration-300">
+      
+      <!-- Certificate Image -->
+      <a href="photos/bluestack certificate.jpg" target="_blank" class="md:w-1/3">
+        <img src="photos/bluestack certificate.jpg" 
+             alt="Bluestack Certificate"
+             class="rounded-xl border-2 border-gray-700 hover:scale-105 transition-transform duration-300">
+      </a>
+      
+      <!-- Content -->
+      <div class="md:w-2/3">
+        <h3 class="text-xl font-semibold mb-2">Software Development Intern – Bluestack</h3>
+        <p class="text-gray-400 text-sm mb-4">Jan 2025 – Mar 2025 | Remote</p>
+        
+        <p class="mb-3"><span class="font-semibold">Tech Stack:</span> Python, C++, Pandas, NLTK, Regex, MySQL</p>
+        
+        <ul class="list-disc list-inside space-y-2 text-gray-300">
+          <li>Developed an automated Resume Tracker to parse and analyze resumes.</li>
+          <li>Implemented keyword extraction using Python libraries.</li>
+          <li>Designed ranking algorithm using C++ for high performance.</li>
+          <li>Stored and managed parsed data in MySQL database.</li>
+          <li>Reduced resume screening time by <strong>70%</strong> compared to manual review.</li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+
+  <!-- Certifications -->
+<!-- Certifications Section -->
+<section id="certifications" class="py-20 bg-black text-white">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-pink-500 mb-12 text-center" data-aos="fade-up">Certifications</h2>
+    
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      
+      <!-- Certificate 1 -->
+      <a href="https://drive.google.com/file/d/1QSBN5wbPwUohjCZV_sSdFCL8wyo47i8A/view" target="_blank" 
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Secured 2nd Rank – College-level Coding Competition (2025)</p>
+      </a>
+
+      <!-- Certificate 2
+      <a href="https://drive.google.com/file/d/1a0FF7BknbNlaNUxbQ01XsomLoHmoeejC/view?usp=drive_link" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="50">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Build a Business Architecture using AWS Organization and AWS S3 Basics – Coursera</p>
+      </a> -->
+
+      <!-- Certificate 3
+      <a href="https://drive.google.com/file/d/1rRUiaodLluc0z-icqHAwe5O2wfFJls7A/view?usp=sharing" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Participated in Flipkart GRID 6.0 – Software Development Track (2024)</p>
+      </a>-->
+
+      <!-- Certificate 4
+      <a href="https://drive.google.com/file/d/1A_jmB5B1X4Fnc2nlkj7NVDF-JWLgCMVd/view?usp=drive_link" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="150">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Amazon ML Challenge and Amazon ML Summer Internship (2024)</p>
+      </a>  -->
+
+      <!-- Certificate 5
+      <a href="https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/abadcdb8-ece0-4af1-a42c-1ff1da00ae28.jpg" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">TATA Crucible Campus Quiz 2024</p>
+      </a> -->
+
+      <!-- Certificate 6
+      <a href="https://drive.google.com/file/d/1cJXrmRyHJ5S2mphJwY4K0n_N1xxknPHB/view?usp=sharing" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="250">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">L'Oréal Sustainability Challenge</p>
+      </a> -->
+
+      <!-- Certificate 7
+      <a href="https://drive.google.com/file/d/1SISttvW8mBoj5rWnXebPYRi7klI-_3_f/view?usp=sharing" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="300">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Unstop's Got Latent (2024)</p>
+      </a> -->
+
+      <!-- Certificate 8 -->
+      <a href="https://drive.google.com/file/d/1WzZHy7ovb0aFfH41x-QXqXHJ28nycQ0e/view?usp=drive_link" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="350">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Smart India Hackathon (SIH-2024) Participant</p>
+      </a>
+
+      <!-- Certificate 9 -->
+      <a href="https://drive.google.com/file/d/1AkGfwKOLUW3PXvxAI6rKU12tyZ3YaxRZ/view?usp=sharing" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="400">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Web Development – Data Flow</p>
+      </a>
+
+      <!-- Certificate 10 -->
+      <a href="https://drive.google.com/file/d/1kdM5sPsRozQ6q9N02XQu9wcDUjuyqvrr/view?usp=sharing" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="450">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">Data Structure and Algorithms using C++ with System Design – Data Flow</p>
+      </a>
+
+      <!-- Certificate 11 -->
+      <a href="https://drive.google.com/file/d/1vEiSD6mkOEAAV4hxwAJ1NovSeVPSP7Sl/view?usp=drive_link" target="_blank"
+         class="bg-[#1c1c1c] p-4 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 flex flex-col items-center text-center tilt-card" data-aos="fade-up" data-aos-delay="500">
+        <i class="fa-solid fa-certificate text-pink-500 text-4xl mb-3"></i>
+        <p class="text-gray-300 font-medium">C Programming – IIT Bombay</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Vanilla Tilt Script
+<script>
+  VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
+    max: 15,
+    speed: 400,
+    glare: true,
+    "max-glare": 0.2
+  });
+</script> -->
+
+
+    
+
+  </section>
+
+  <!-- Contact -->
+<!-- Contact -->
+<section id="contact" class="py-20 bg-[#111] text-white">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+    
+    <!-- Left Side -->
+    <div data-aos="fade-right">
+      <h2 class="text-4xl font-bold text-pink-500 mb-6">Get in Touch</h2>
+      <p class="mb-4 text-gray-300">Feel free to reach out for collaborations or just a friendly hello 👋</p>
+      
+      <p class="mb-3">📧 
+        <a href="mailto:manusharma8164@gmail.com" class="hover:text-pink-500 transition">
+          manusharma8164@gmail.com
+        </a>
+      </p>
+      <p class="mb-3">📱 
+        <a href="tel:+918218376267" class="hover:text-pink-500 transition">
+          +91-8218376267
+        </a>
+      </p>
+
+      <!-- Social Links -->
+      <div class="flex gap-6 mt-6 text-2xl">
+        <a href="https://linkedin.com/in/manu-sharma8218" target="_blank" class="hover:text-pink-500 transition">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/ManuSharma82" target="_blank" class="hover:text-pink-500 transition">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="hover:text-pink-500 transition">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+
+      <!-- Resume Button -->
+      <a href="photos/resume.pdf" download class="mt-8 inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-lg transition">
+        📄 Download CV
+      </a>
+    </div>
+
+    <!-- Right Side (Form) -->
+    <form class="flex flex-col gap-4 bg-[#1a1a1a] p-6 rounded-lg shadow-lg" data-aos="fade-left">
+      <input type="text" placeholder="Your Name" class="bg-[#222] py-3 px-4 rounded focus:outline-none focus:ring-2 focus:ring-pink-500" />
+      <input type="email" placeholder="Your Email" class="bg-[#222] py-3 px-4 rounded focus:outline-none focus:ring-2 focus:ring-pink-500" />
+      <textarea placeholder="Your Message" rows="4" class="bg-[#222] py-3 px-4 rounded focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+      <button type="submit" class="bg-pink-600 hover:bg-pink-700 py-3 px-6 rounded font-medium transition">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black py-6 text-center text-gray-400">
+  © 2025 Manu Sharma. All rights reserved.
+</footer>
+
+<!-- FontAwesome Icons -->
+<script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<!-- Vanilla Tilt Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
