@@ -46,3 +46,13 @@ git clone https://github.com/ManuSharma82/my-portfolio.git
 cd my-portfolio
 
 # Open index.html in your browser
+
+## 📬 Contact Me
+- **Email:** [manusharma8164@gmail.com](mailto:manusharma8164@gmail.com)
+- **LinkedIn:** [linkedin.com/in/manu-sharma8218](https://linkedin.com/in/manu-sharma8218)
+- **GitHub:** [github.com/ManuSharma82](https://github.com/ManuSharma82)
+
+---
+
+## 📝 License
+This project is **open-source** and available under the [MIT License](LICENSE).
